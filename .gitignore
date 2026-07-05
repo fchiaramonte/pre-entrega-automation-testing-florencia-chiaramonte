@@ -1,0 +1,21 @@
+# Cache de Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Cache de pytest
+.pytest_cache/
+
+# Logs generados automáticamente
+logs/
+
+# Screenshots de fallos
+reports/screenshots/
+
+# Entorno virtual
+venv/
+.env/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db

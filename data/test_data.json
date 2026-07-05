@@ -1,0 +1,45 @@
+{
+  "usuarios_validos": [
+    {
+      "username": "standard_user",
+      "password": "secret_sauce",
+      "descripcion": "Usuario estándar con acceso completo"
+    },
+    {
+      "username": "problem_user",
+      "password": "secret_sauce",
+      "descripcion": "Usuario con problemas visuales en la UI"
+    }
+  ],
+  "usuarios_invalidos": [
+    {
+      "username": "locked_out_user",
+      "password": "secret_sauce",
+      "descripcion": "Usuario bloqueado"
+    },
+    {
+      "username": "usuario_falso",
+      "password": "clave_falsa",
+      "descripcion": "Usuario inexistente"
+    },
+    {
+      "username": "",
+      "password": "secret_sauce",
+      "descripcion": "Usuario vacío"
+    }
+  ],
+  "productos_conocidos": [
+    "Sauce Labs Backpack",
+    "Sauce Labs Bike Light",
+    "Sauce Labs Bolt T-Shirt"
+  ],
+  "api": {
+    "base_url": "https://jsonplaceholder.typicode.com",
+    "posts_validos": [1, 2, 3, 5, 10],
+    "nuevo_post": {
+      "title": "Post de prueba",
+      "body": "Contenido del post de prueba",
+      "userId": 1
+    }
+  }
+}
